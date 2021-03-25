@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Icon moves from point A to point B (google maps) </title>
+      <meta name="description" content="map marker moves from point a to point b" />
+      <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
+   </head>
+   <body onload="initialize()">
+      <div id="wrapper">
+         <section id="featured" class="bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-7">
+                     <div id="map_canvas"></div>
+                  </div>
+                  <div class="col-md-5" style="margin-top:40px; font-weight:300;">
+                     <form action="" method="post" role="form" class="contactForm" >
+                        <div class="row">
+                           <div class="col-md-6">
+                              <label>From:</label>
+                              <div id="locationField">
+                                 <input id="start" placeholder="Откуда" onFocus="geolocate()"  type="text" name="otpr" class="form-control"></input>
+                              </div>
+                              <div class="validation"></div>
+                           </div>
+                           <div class="col-md-6">
+                              <label>To:</label>
+                              <div id="locationField">
+                                 <input id="end" placeholder="Куда" onFocus="geolocate()"  type="text" name="dost" class="form-control"></input>
+                              </div>
+                              <div class="validation"></div>
+                           </div>
+                        </div>
+                        <div type="submit" class="text-center" id="btn_submit" onclick="calcRoute();"><a href="#" class="btn">GO!</a></div>
+                        <br>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAPHcZHcxdRvEscLB8OK3uIGku1S-fBaiY&sensor=false&libraries=places"></script>
+      <script src="js/map-car.js"></script>	
+      <script src="js/v3_epoly.js"></script>
+      <script src="js/jquery.appear.js"></script>
+   </body>
+</html>
+

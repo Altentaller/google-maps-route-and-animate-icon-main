@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900|Open+Sans:300,400,600,700');
+
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6em;
+	color: #444444;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+
+#map_canvas {
+	margin-top: 40px;
+	height: 463px;
+	width: 100%
+}
+
+.btn {
+	border: 1px solid #16609b;
+	background: #16609b;
+	color: #ffffff;
+	padding: 10px 40px;
+}
+
+.btn:hover {
+	font-weight: 600;
+	color: #ffffff;
+}
+
+#featured {
+	width: 100%;
+	background: #fcfcfc;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#featured.bg {
+	background: #fff;
+}
