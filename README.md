@@ -2,4 +2,7 @@
 1. Select cities A and B. 
 2. Press GO. 
 3. Сar icon will move along the route. 
-<img src="https://raw.githubusercontent.com/Altentaller/google-maps-route-and-animate-icon/main/screen.gif">
+
+<a href="https://altentaller.github.io/google-maps-route-and-animate-icon/">Demo  on altentaller.github.io &rarr;</a>
+
+![alt text](https://github.com/Altentaller/google-maps-route-and-animate-icon/raw/master/screen.gif "screenshot")
